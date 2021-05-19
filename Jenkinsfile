@@ -1,5 +1,6 @@
 node {
     stage('Build') {
+        sh 'cd ..'
         sh 'echo "rozpoczynam budowanie . . ."'
         sh 'sleep 1'
         sh 'touch plik2.py plik3.rpm plik4.rpm'
